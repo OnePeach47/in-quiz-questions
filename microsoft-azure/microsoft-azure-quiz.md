@@ -105,3 +105,66 @@ Q15. When setting your CI/CD pipeline an approval from your product owner is req
 - [x] pre-deployment condition
 - [ ] branch filer
 - [ ] pre-deployment gate
+
+Q16. You need to migrate the backlog of a development project for a newly acquired subsidiary. The development team currently uses a Kanban board to track stories, tasks, and bugs. Which process framework should you select in Azure Boards?
+
+- [ ] Basic
+- [ ] CMMI
+- [ ] Agile
+- [ ] Waterfall
+
+Q17. The Kineteco Web App is running on AKS. To meet a spike in demand, the horizontal pod autoscaler recently provisioned additional pods, which are no longer needed. What should you do to scale down unnecessary pods?
+
+- [ ] Trigger scale down in Azure Container Instances.
+- [ ] Trigger scale down in the HPA from the Azure CLI.
+- [ ] Manually deprovision unneeded pods.
+- [ ] Do nothing. HPA will initiate scale down automatically.
+
+Q18. Your ARM template, created in VS Code, is failing validation in the build pipeline in Azure DevOps. You need to correct syntax issues at authoring time with a minimum of cost and effort. What should you do?
+
+- [ ] Install Azure Resource Manager Tools extension in VS Code.
+- [ ] Install Visual Studio 2019 Enterprise edition.
+- [ ] Install Visual Studio 2019 Community edition.
+- [ ] Install Visual Studio Code IntelliCode extension in VS Code.
+
+Q19. You have a CI/CD pipeline for a modern web application in Azure DevOps. The CI/CD process includes both a build and a release pipeline. You need to ensure that user acceptance testing (UAT) is successful before triggering the release pipeline. The process should be as automated as possible. What should you add to your build pipeline?
+
+- [ ] Query Work Items gate
+- [ ] Invoke REST API gate
+- [ ] Manual Intervention task
+- [ ] Approval gate
+
+Q20. Your Kineteco Web App experiences occasional spikes in usage that cause resource shortages that generate an alert. When this occurs, you want to configure scale out of the App Service plan resources. The solution should minimize cost and administrative effort. What should you do?
+
+- [ ] Create a Logic App. Then configure an action group with the Logic App action type.
+- [ ] Configure an autoscale rule based on a metric.
+- [ ] Create an Azure function. Then configure an action group with the Secure Webhook action type.
+- [ ] Create an Azure Automation Runbook. Then configure an action group with the Automation Runbook action type.
+
+Q21. You have configured the Kineteco Web App to run on Azure Kubernetes Service (AKS). Application resources need to scale to meet spikes in traffic. What should you do? The solution should minimize manual effort and cost.
+
+- [ ] Configure burst to Azure Container Instances.
+- [ ] Configure the horizontal pod autoscaler (HPA).
+- [ ] Do nothing. Pods running on AKS scale up automatically.
+- [ ] Manually scale pod when necessary.
+
+Q22. You need to host a community website for your neighborhood association. The site contains static content, including HTML, CSS, and a few pages with client-side JavaScript. The site contains no sensitive information, and CORS support is unnecessary. The association has limited funds to pay for hosting, so the solution should be as inexpensive as possible. Which option should you use?
+
+- [ ] App Service on a Consumption plan
+- [ ] Azure Storage static website
+- [ ] App Service on a Standard plan
+- [ ] static website with Azure CDN
+
+Q23. You configure access to secrets in Azure Key Vault with _____.
+
+- [ ] RBAC roles
+- [ ] access policies
+- [ ] service principals
+- [ ] certificates
+
+Q24. You need to create a tech support chatbot for Microsoft Teams that interacts with users based on natural language processing (NLP). The bot should be capable of processing differing sentence structures. Which Microsoft Bot Framework component will deliver this functionality?
+
+- [ ] Form Recognizer
+- [ ] Text to Speech
+- [ ] QnA Maker
+- [ ] LUIS
